@@ -14,11 +14,11 @@
 
 </head>
 <header>
-    <div class="jumbotron jumbotron-fluid" style="background-image: url(./images/coursejumb2.jpg); background-size: cover; 
-	background-repeat: no-repeat;">
+    <div class="jumbotron jumbotron-fluid" style="background-image: url(./images/coursej.jpg); background-size: cover; 
+	background-repeat: no-repeat; height: 450px">
         <div class="container">
-            <nav class="navbar navbar-expand-lg mt-lg-0" id="nav">
-                <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+            <nav class="navbar navbar-expand-lg mt-lg-0 mb-5" id="nav">
+                <div class="collapse navbar-collapse">
                     <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
                         <li class="nav-item active">
                             <h2> <i class="fa fa-book" aria-hidden="true"></i> TutorPoint </h2>
@@ -38,40 +38,42 @@
                             <a class="nav-link" id="nav-item" href="./ebooks.html">Ebooks</a>
                         </li>
                     </ul>
-                    <button type="button" class="btn btn-danger btn-lg">Login</button>
+                    <a href="./courses.html"><button type="button" class="btn btn-danger btn-lg px-5">Login</button></a>
                 </div>
             </nav>
             <nav aria-label="breadcrumb">
                 <ol class="breadcrumb" style="background-color: transparent; ">
-                    <li class="breadcrumb-item"><a href="./home.html" id="ul1" style="color:white">Home</a></li>
-                    <li class="breadcrumb-item active" aria-current="page" style="color:#D21F3C">Courses</li>
+                    <li class="breadcrumb-item"><a href="./home.html" id="ul1"
+                            style="color:white"><strong>Home</strong></a></li>
+                    <li class="breadcrumb-item active" aria-current="page" style="color:#D21F3C"><strong>Courses</strong>
+                    </li>
                 </ol>
-            </nav>
-            <h2 class="card-header border border-0" style="background-color:#D21F3C;color: white; text-align: center;">
-                Course</h2>
-            <div class="card text-center" style="background-color:#D21F3C; align-items: center;">
-                <div class="card-body mx-5 my-4" style="background-color:#D21F3C;">
-                    <form class="form-inline p-4">
-                        <div class="form-group px-3">
-                            <input type="text" class="form-control-lg border border-0" placeholder="Course"
-                                style="background-color:#ececec;">
-                        </div>
-                        <div class="form-group px-3">
-                            <input type="text" class="form-control-lg border border-0" placeholder="Category"
-                                style="background-color:#ececec;">
-                        </div>
-                        <button class="btn-lg" style="background-color:black;color: white;">Search Course</button>
-                    </form>
+                <h2 class="card-header border border-0" id="ebcard" style="margin-left: 15em;">
+                    Course</h2>
+                <div class="card text-center mb-10" style="background-color:#D21F3C; align-items: center;">
+                    <div class="card-body mx-5 my-4" style="background-color:#D21F3C;">
+                        <form class="form-inline p-4">
+                            <div class="form-group px-2">
+                                <input type="text" class="form-control-lg border border-0 pr-5" placeholder="Course"
+                                    style="background-color:#ececec;">
+                            </div>
+                            <div class="form-group px-2">
+                                <input type="text" class="form-control-lg border border-0 pr-5" placeholder="Category"
+                                    style="background-color:#ececec;">
+                            </div>
+                            <a href="./courses.html"><button class="btn-lg px-5 ml-2 py-2" href="./ebooks.html" style="background-color:black;color: white;">Search Course</button></a>
+                        </form>
+                    </div>
                 </div>
-            </div>
+            </nav>
         </div>
     </div>
-    </div>
+    
 </header>
 
 <body>
-    <div class="container">
-        <div class="row row-content align-items-center mt-5">
+    <div class="container" style="margin-top: 200px;">
+        <div class="row row-content align-items-center">
             <div class="col-12 col-8 order-sm-first col-md">
                 <div class="media">
                     <img class="col-8 img-responsive" id="course1" src="./images/course1.jpeg">

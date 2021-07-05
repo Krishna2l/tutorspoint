@@ -92,12 +92,10 @@ footer{
      background-color: #ececec;
      width:580px;
  }
- input {
-     font-style: italic;
- }
  .card-header{
      width:fit-content;
-     padding-inline: 3em;
+     padding-inline: 1em;
+     
  }
  footer a:link {
     text-decoration: none;
@@ -105,3 +103,18 @@ footer{
  footer a:hover{
         color:#d21f3c;
  }
+ #ebcard{
+    background-color:#D21F3C;
+    color: white;
+     text-align: center;
+    
+ }
+ ::placeholder{
+     font-style: italic;
+ }
+
+ input:focus{
+     outline: none;
+ }
+ 
+ 
